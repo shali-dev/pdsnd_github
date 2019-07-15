@@ -2,7 +2,7 @@
 
 Bikeshare Phython project
 
-##Purpose:
+###Purpose:
 
 In this project,Python is used to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Phython code to import the data and answer interesting questions about it by computing descriptive statistics. 
 
