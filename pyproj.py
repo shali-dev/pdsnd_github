@@ -24,7 +24,7 @@ def get_filters():
             print('Invalid city. Please try again!\n')
             continue
         else:
-         break 
+         break
     # get user input for month (all, january, february, ... , june)
     while True:
       month = input("\nWhich month would you like to filter? January, Febraury, March, April, May, June or all? \n").lower()
@@ -33,9 +33,9 @@ def get_filters():
         continue
       else:
         break
-               
+
     # get user input for day of week (all, monday, tuesday, ... sunday)
- 
+
     while True:
       day = input("\nWhich day? Please type your response as follows:Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all.\n").lower()
       if day not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):
@@ -46,7 +46,7 @@ def get_filters():
 
     print('-'*40)
     return city, month, day
-   
+
 def load_data(city, month, day):
 
     """
@@ -84,7 +84,7 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
 
     return df
-
+    # Displays the most frequent time of travel
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -228,8 +228,8 @@ def main():
              i += 5
              more_data = input("would you like to see 5 more rows of raw data? Enter yes or no:\n").lower()
              if more_data not in ('yes','y'):
-               break  
-          
+               break
+
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
