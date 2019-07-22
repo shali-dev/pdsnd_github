@@ -1,12 +1,18 @@
 7/15/2019
 
-# Bikeshare Phython project
+### Bikeshare project
+Bikeshare company data analysis
 
-## Purpose:
+### Description
+Using python, bikeshare data has been analysed  to come up with meaningful data analysis.
 
-In this project,Python is used to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Phython code is used to import the data and answer interesting questions about it by computing descriptive statistics. 
+### Files used
+- chicago.csv
+- newyork.csv
+- washington.csv
 
-##  Softwares used:
+### Credits
+Used guidance of udacity reviewers.
 
 - Python 3, NumPy, and pandas installed using Anaconda
 - Atom
